@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@color/windowBackground">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="22dp"
+        android:paddingTop="20dp"
+        android:textColor="@color/textColorPrimary"
+        android:text="HVAC SOLUTION" />
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textColor="@color/textColorPrimary"
+        android:text="Without regular maintenance on your heating, ventilation and air conditioning (HVAC) system can results in heavy spending on energy cost. Therefore, precautionary maintenance and optimization of HVAC system can not only lower the cost of energy usage, but also enhanced comfort, productivity of building�s interior. Just Light Technology will evaluate your business energy usage of your HVAC system and find the perfect energy solution for you. By professionally measure existing HVAC system, we can give you the most cost-efficiency solution based on our deep research and analysis."
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="110dp"
+        android:text="Go Ahead,Associate!!"
+        android:textAllCaps="false"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/Partner_HVAC_Analysis_Solution"
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:drawable/btn_default"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="HVAC"
+        android:textColor="@color/Black" />
+</LinearLayout>

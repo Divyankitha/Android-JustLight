@@ -1,0 +1,66 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sjsu.mobileApp.justLight.Partner.Fragment.PartnerHelpFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/windowBackground"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.07"
+            android:paddingTop="20dp"
+            android:text="HELP AND FEEDBACK"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:text="Let us know your concerns and comments"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btn_partner_contactUs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_default"
+            android:backgroundTint="@color/darkpink"
+            android:text="Contact Us"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btn_partner_faq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_default"
+            android:backgroundTint="@color/darkgreen"
+            android:text="FAQs"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btn_partner_versionNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_default"
+            android:backgroundTint="@color/grey"
+            android:text="Version Number 1.0"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+</FrameLayout>

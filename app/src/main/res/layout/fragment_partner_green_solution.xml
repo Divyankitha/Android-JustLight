@@ -1,0 +1,120 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:grid="http://schemas.android.com/apk/res-auto"
+    tools:context="com.sjsu.mobileApp.justLight.Customer.Fragments.GreenSolutionFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/windowBackground">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/P_input_search"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:theme="@style/TextLabel">
+
+                <EditText
+                    android:id="@+id/partner_input_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_search"
+                    android:textColor="@color/white" />
+            </android.support.design.widget.TextInputLayout>
+
+            <ImageButton
+                android:id="@+id/partnerSearchButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/windowBackground"
+                android:src="@mipmap/ic_search" />
+
+        </RelativeLayout>
+
+        <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/GridLayout1"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft= "5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:orientation="vertical"
+            tools:context=".GridXMLActivity" >
+
+            <Button
+                android:id="@+id/P_Smartlighting"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:layout_gravity="fill_horizontal"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimary"
+                android:text="Smart Lighting"
+                android:textAllCaps="false"
+                android:textSize="20dp" />
+            <!--grid:layout_columnWeight="1"-->
+            <!--grid:layout_rowWeight="1"/>-->
+
+            <Button
+                android:id="@+id/P_HVAC"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:layout_gravity="fill_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/grey"
+                android:text="HVAC"
+                android:textAllCaps="false"
+                android:textSize="20dp" />
+            <!--grid:layout_columnWeight="1"-->
+            <!--grid:layout_rowWeight="1"/>-->
+
+            <Button
+                android:id="@+id/P_solar"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:layout_gravity="fill_horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/grey"
+                android:text="Solar"
+                android:textAllCaps="false"
+                android:textSize="20dp" />
+            <!--grid:layout_columnWeight="1"-->
+            <!--grid:layout_rowWeight="1"/>-->
+
+            <Button
+                android:id="@+id/P_window_film"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:layout_gravity="fill_horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:text="Window Film"
+                android:textAllCaps="false"
+                android:textSize="20dp" />
+            <!--grid:layout_columnWeight="1"-->
+            <!--grid:layout_rowWeight="1"/>-->
+
+        </GridLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,81 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sjsu.mobileApp.justLight.Partner.Fragment.PartnerRatingFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/windowBackground"
+        android:orientation="vertical"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Rate Us"
+            android:textColor="@color/white"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Tell us how we are doing!"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_partner_username"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="35dp"
+            android:theme="@style/TextLabel">
+
+            <EditText
+                android:id="@+id/input_rating"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:hint="Enter your comments here..."
+                android:textColor="@color/white" />
+        </android.support.design.widget.TextInputLayout>
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:paddingTop="20dp"
+            android:progressBackgroundTint="@color/grey"
+            android:progressTint="@color/colorPrimary"
+            android:rating="2.0"
+            android:stepSize="1.0" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:paddingTop="150dp">
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:background="@drawable/mybutton"
+                android:onClick="confirmButton"
+                android:text="Confirm"
+                android:textAllCaps="false"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="20sp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</FrameLayout>

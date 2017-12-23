@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/border"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="5dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Pfullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nbnk"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/Pcontact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hbjk"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/PEmail"
+        android:textColor="#ffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="jhfghjg" />
+
+    <TextView
+        android:id="@+id/Prating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nbnk"
+        android:textColor="#ffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/pprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#ffff"
+        android:textSize="20dp" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:background="@color/Black">
+
+
+        <Button
+            android:id="@+id/RequestAuth"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/grey"
+            android:text="Request Demo" />
+
+        <Button
+            android:id="@+id/order"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:background="@color/grey"
+            android:text="Place Order"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+

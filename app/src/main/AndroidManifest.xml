@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sjsu.mobileApp.justLight">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.sjsu.mobileApp.justLight.Customer.Activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Partner.Activity.PartnerDashboardActivity"
+            android:label="dashboard"
+            android:parentActivityName="com.sjsu.mobileApp.justLight.Customer.Activity.UserSignInActivity"></activity>
+
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Customer.Activity.ActivityMainPage"> </activity>
+
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Customer.Activity.PlaceOrder"> </activity>
+
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Partner.Activity.AssociationRequest"> </activity>
+
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Customer.Activity.ContactDetailsActivity"> </activity>
+
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Partner.Activity.PartnerHVACActivity"> </activity>
+
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Partner.Activity.PartnerSmartLightingActivity"> </activity>
+
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Partner.Activity.PartnerSolarActivity"> </activity>
+
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Partner.Activity.PartnerWindowFilmActivity"> </activity>
+
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Partner.Activity.PartnerAuthorizationRequestActivity"> </activity>
+
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Partner.Activity.PartnerOrderHistoryActivity"> </activity>
+
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Customer.Activity.UserSignUpActivity"
+            android:label="SignUp"
+            android:parentActivityName="com.sjsu.mobileApp.justLight.Customer.Activity.MainActivity"></activity>
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Customer.Activity.UserSignUpDetails"
+            android:label="SignUp"
+            android:parentActivityName="com.sjsu.mobileApp.justLight.Customer.Activity.MainActivity"></activity>
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Customer.Activity.UserSignInActivity"
+            android:label="SignIn"
+            android:parentActivityName="com.sjsu.mobileApp.justLight.Customer.Activity.MainActivity"></activity>
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Customer.Activity.CustomerDashboardActivity"
+            android:label="dashboard"
+            android:parentActivityName="com.sjsu.mobileApp.justLight.Customer.Activity.UserSignInActivity"></activity>
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Customer.Activity.HomeActivity"
+            android:label="Home"
+            android:parentActivityName="com.sjsu.mobileApp.justLight.Customer.Activity.CustomerDashboardActivity"></activity>
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Customer.Activity.ProfileActivity"
+            android:label="Profile"
+            android:parentActivityName="com.sjsu.mobileApp.justLight.Customer.Activity.CustomerDashboardActivity"></activity>
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Customer.Activity.GreenSolutionActivity"
+            android:label="Green Energy Solution"
+            android:parentActivityName="com.sjsu.mobileApp.justLight.Customer.Activity.CustomerDashboardActivity"></activity>
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Customer.Activity.AuthorizationRequestActivity"
+            android:label="Authorization request"
+            android:parentActivityName="com.sjsu.mobileApp.justLight.Customer.Activity.CustomerDashboardActivity"></activity>
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Customer.Activity.OrderHistoryActivity"
+            android:label="order History"
+            android:parentActivityName="com.sjsu.mobileApp.justLight.Customer.Activity.CustomerDashboardActivity"></activity>
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Customer.Activity.InviteActivity"
+            android:label="Invite"
+            android:parentActivityName="com.sjsu.mobileApp.justLight.Customer.Activity.CustomerDashboardActivity"></activity>
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Customer.Activity.HelpActivity"
+            android:label="Help"
+            android:parentActivityName="com.sjsu.mobileApp.justLight.Customer.Activity.CustomerDashboardActivity"></activity>
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Customer.Activity.SettingsActivity"
+            android:label="Settings"
+            android:parentActivityName="com.sjsu.mobileApp.justLight.Customer.Activity.CustomerDashboardActivity"></activity>
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Customer.Activity.RatingActivity"
+            android:label="Rating"
+            android:parentActivityName="com.sjsu.mobileApp.justLight.Customer.Activity.CustomerDashboardActivity"></activity>
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Customer.Activity.LogoutActivity"
+            android:label="Logout"
+            android:parentActivityName="com.sjsu.mobileApp.justLight.Customer.Activity.CustomerDashboardActivity"></activity>
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Customer.Activity.SmartLightingActivity"></activity>
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Customer.Activity.MDPatnersActivity"></activity>
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Customer.Activity.ODPatnersActivity"></activity>
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Customer.Activity.DHSPatnersActivity"></activity>
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Customer.Activity.SolarActivity"></activity>
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Customer.Activity.SolarPatnersActivity"></activity>
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Customer.Activity.HVACActivity"></activity>
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Customer.Activity.HVACPatnersActivity"></activity>
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Customer.Activity.WindowFilmActivity"></activity>
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Customer.Activity.WindowFilmPatnersActivity"></activity>
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Customer.Activity.FaqActivity"
+            android:label="Faq"
+            android:parentActivityName="com.sjsu.mobileApp.justLight.Customer.Activity.HelpActivity"></activity>
+
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Customer.Activity.YoutubeActivity"></activity>
+
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Customer.Activity.ChangeCredentialsActivity"></activity>
+        <activity
+            android:name="com.sjsu.mobileApp.justLight.Customer.Activity.ChangeProfileActivity"></activity>
+    </application>
+</manifest>

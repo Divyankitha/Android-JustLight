@@ -1,0 +1,90 @@
+
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.sjsu.mobileApp.justLight.Customer.Fragments.RatingFragment">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp"
+        android:orientation="vertical"
+        android:background="@color/windowBackground"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Rate Us"
+            android:textColor="@color/white"
+            android:textSize="32sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Tell us how we are doing!"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_username"
+            android:theme="@style/TextLabel"
+            android:paddingTop="35dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content">
+
+
+            <EditText
+                android:id="@+id/partner_rating"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:hint="Enter your comments here..."
+                android:inputType="text"
+                android:textColor="@color/white" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <RatingBar
+            android:id="@+id/partner_ratingBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:paddingTop="20dp"
+            android:progressBackgroundTint="@color/grey"
+            android:progressTint="@color/colorPrimary"
+            android:rating="2.0"
+            android:stepSize="1.0" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="150dp"
+            android:layout_gravity="center|bottom"
+            android:layout_weight="2.42">
+
+            <Button
+                android:id="@+id/partner_submit"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/mybutton"
+                android:text="Confirm"
+                android:textAllCaps="false"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
+</FrameLayout>
+

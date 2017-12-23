@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon= "@mipmap/ic_home"
+            android:title="@string/nav_home"/>
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@mipmap/ic_profile"
+            android:title="@string/nav_profile"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:id="@+id/nav_greenSolution"
+            android:icon="@mipmap/ic_greensolution"
+            android:title="@string/nav_greenSolutions"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:id="@+id/nav_authorizationRequest"
+            android:icon="@mipmap/ic_authorizatonrequest"
+            android:title="@string/nav_authorizationRequest"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:id="@+id/nav_orderHistory"
+            android:icon="@mipmap/ic_orderhistory"
+            android:title="@string/nav_orderHistory"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:id="@+id/nav_invite"
+            android:icon="@mipmap/ic_invite"
+            android:title="@string/nav_Invite"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@mipmap/ic_help"
+            android:title="@string/nav_helpAndFeedback"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@mipmap/ic_settings"
+            android:title="@string/nav_settings"
+            app:showAsAction="ifRoom"/>
+
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@mipmap/ic_rating"
+            android:title="@string/nav_rating"
+            app:showAsAction="ifRoom"/>
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@mipmap/ic_logout"
+            android:title="@string/nav_logout"
+            app:showAsAction="ifRoom"/>
+    </group>
+
+</menu>

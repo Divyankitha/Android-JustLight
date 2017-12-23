@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowBackground">
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Complete the following"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="153dp">
+
+        <TextView
+            android:id="@+id/solutionUnit"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:text="Price Per Unit"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/input_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/solutionUnit"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="49dp"
+            android:ems="10"
+            android:hint="Enter the per unit price"
+            android:inputType="numberDecimal"
+            android:textColor="#ffff"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:onClick="addPrice"
+        android:text="Save" />
+</LinearLayout>

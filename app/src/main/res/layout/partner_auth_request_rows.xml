@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/border"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="5dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/custName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nbnk"
+        android:textColor="#ffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/reqStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hbjk"
+        android:textColor="#ffff"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/UpdateAuthorization"
+        style="@android:style/Widget.Material.Button.Borderless"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:background="@color/grey"
+        android:text="Approve"
+        android:textStyle="bold" />
+
+</LinearLayout>

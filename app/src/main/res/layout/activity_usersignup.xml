@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/windowBackground">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/ic_launcher"
+        android:contentDescription="@string/app_name"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Sign Up!"
+        android:textColor="@color/white"
+        android:textSize="25sp"/>
+    <RadioGroup
+        android:id="@+id/radioAppUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        android:layout_gravity="center_horizontal">
+
+            <RadioButton
+                android:id="@+id/radioUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_user"
+                android:buttonTint="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:textColor="@color/textColorPrimary"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/radioPartner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/radioUser"
+                android:textSize="20dp"
+                android:buttonTint="@color/colorPrimaryDark"
+                android:textColor="@color/textColorPrimary"
+                android:text="@string/radio_partner"
+                />
+
+    </RadioGroup>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_username"
+        android:theme="@style/TextLabel"
+        android:paddingTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/input_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_username"
+            android:textColor="#ffff" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_password"
+        android:theme="@style/TextLabel"
+        android:paddingTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/input_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword"
+            android:textColor="#ffff" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_confirm"
+        android:theme="@style/TextLabel"
+        android:paddingTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/input_confirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_confirmPassword"
+            android:inputType="textPassword"
+            android:textColor="#ffff" />
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="75dp"
+        android:layout_width="125dp"
+        android:layout_height="45dp"
+        android:background="@drawable/mybutton"
+        android:textColor="@color/textColorPrimary"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:text= "@string/btn_sign_up"
+        android:onClick="signUp"/>
+
+</LinearLayout>

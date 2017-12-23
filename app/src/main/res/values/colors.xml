@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#62d1a6</color>
+    <color name="colorPrimaryDark">#03987d</color>
+    <color name="colorAccent">#757273</color>
+    <color name="windowBackground">#302b2e</color>
+    <color name="Black">#302b2e</color>
+    <color name="navigationBarColor">#62D1A6</color>
+    <color name="textColorPrimary">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="green">#44d637</color>
+    <color name="red">#281b9c</color>
+    <color name="orange">#f07136</color>
+    <color name="yellow">#efc11e</color>
+    <color name="lightyellow">#fbfb33</color>
+    <color name="lightgreen">#3ff496</color>
+    <color name="darkgreen">#008848</color>
+    <color name="blue">#0374fe</color>
+    <color name="lightblue">#3b3b9a</color>
+    <color name="purple">#7b5893</color>
+    <color name="lightpurple">#e75ad4</color>
+    <color name="darkpink">#d9300f</color>
+    <color name="pink">#ff3493</color>
+    <color name="grey">#9ea4a3</color>
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/border"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="5dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Psolution"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nbnk"
+        android:textColor="#ffff"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Black">
+
+        <TextView
+            android:id="@+id/Pdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hbjk"
+            android:textColor="#ffff"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/Pstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jhfghjg"
+        android:textColor="#ffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Pcustomer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jhfghjg"
+        android:textColor="#ffff"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/deleteOrder"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/grey"
+        android:onClick="deleteTask"
+        android:text="Delete" />
+
+</LinearLayout>
