@@ -3,5 +3,6 @@ An Android application for the company JustLight which provides a platform for v
 
 This project was awarded first place by JustLight Technology.
 
+
 <kbd><img src="/Award.jpeg" alt="Award" height="400px" width="800px" ></kbd>
-<kbd><img src="/AwardPresentation.jpeg" alt="Award Presentation" height="400px" width="600px" ></kbd>
+
